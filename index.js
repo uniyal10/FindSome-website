@@ -45,8 +45,7 @@ function signin(){
   signupbtn.innerHTML="Login";
   var loginlink=document.getElementById("loginlink");
   loginlink.innerHTML="signup";
-    var alreadyregister=document.getElementById("alreadyregister");
-  alreadyregister.innerHTML="create account : ";
+   
   }
   else{
     var logintext=document.getElementById("warning");
@@ -59,8 +58,7 @@ function signin(){
   signupbtn.innerHTML="Signup";
   var loginlink=document.getElementById("loginlink");
   loginlink.innerHTML="login";
-     var alreadyregister=document.getElementById("alreadyregister");
-  alreadyregister.innerHTML="already register : ";
+     
 
   }
   
