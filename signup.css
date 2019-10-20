@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+body {font-family: 'Mansalva', cursive;
+
+background-image: url("");
+}
+* {box-sizing: border-box}
+main{
+    display:flex;
+}
+#info{
+    text-align: center;
+    width:60%;
+}
+#span{
+    font-size: 50px;
+    color: #ff0040;
+}
+h1{
+    color: #ff0040;
+}
+#api{
+    margin-top:40px;
+}
+.btn{
+    border:none;
+    border-radius:5px;
+    padding:5px 30px;
+    background-color:#ff0040;
+    font-family:'Mansalva', cursive;
+    font-size:30px;
+    font-weight:20px;
+    box-shadow:10px 10px 10px #4d4d4d;
+    position:relative;
+    outline:none;
+    text-transform:uppercase;
+    margin-bottom: 10px;
+    margin-top:10px;
+  
+  }
+  .btn:hover{
+    cursor:pointer;
+    
+
+  
+  }
+  #myimg{
+    border:2px solid #262626;
+     box-shadow:10px 10px 10px #808080;
+   
+   }
+   #fname{
+    font-size:50px;
+    font-family:'Mansalva', cursive;
+  }
+  #lname{
+    font-size:20px;
+    font-family:'Mansalva', cursive;
+  }
+  #title{
+    font-size:20px;
+    font-family:'Mansalva', cursive;
+  }
+  #gender{
+    font-size:20px;
+    font-family:'Mansalva', cursive;
+  }
+  #city{
+    font-size:20px;
+    font-family:'Mansalva', cursive;
+    margin-left: 5px;
+  }
+  #state{
+    font-size:20px;
+    font-family:'Mansalva', cursive;
+  }
+  .btn:active{
+    top:3px;
+    box-shadow:8px 8px 10px #ccc;
+    
+  }
+  
+/* Full-width input fields */
+.container{
+    border-left:2px solid #ff0040;
+    box-shadow: 10px 10px 10px #4d4d4d;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 700px) {
+  .btn, .btn {
+     width: 100%;
+  }
+  #info{
+      width:100%;
+  }
+  main{
+      display:block;
+  }
+  #form{
+      margin-top:10px;
+  }
+}

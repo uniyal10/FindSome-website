@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body onload="">
+    <main>
+    <div id="info">
+        <span id="span">FINDSOME</span> <br>
+         
+        <div id="api">
+        <div id="img">
+                <img id="myimg" src="./img/IMG_20190625_110537.jpg" width="150px" height="150px">
+              </div>
+              <div class="info">
+                <div class="name">
+                  <span id="title">Mr</span></br>
+                  <span id="fname">sudhanshu</span>
+                  <span id="lname">uniyal</span></br>
+              </div>
+              <div class="">
+                <span id="gender">male</span></br>
+                
+              </div>
+              <div class="location">
+                <span id="street"></span></br>
+          <i class="fas fa-city"></i><span id="city">city-panchkula</span></br>
+          <span id="state">(haryana)</span></br>
+          <span id="postCode">133301</span></br>
+              </div>
+          
+          
+              </div>
+              <div>
+                 <button class="btn" onclick="fun()">next</button>
+                </div>
+                <div>
+                        <button class="btn" onclick="request()">Request</button>
+                       </div>
+
+    </div>
+    </div>
+    <div id="form">
+            <form action="" name="myform" style="border:1px solid #ccc" onsubmit="validation()">
+                <div class="container">
+                  <h1 id="warning">Sign Up</h1>
+                  <p id="logindes">Please fill in this form to create an account.</p>
+                  <hr>
+              
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" name="fname" placeholder="Enter Email" name="email" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <label id="repeat" for="psw-repeat"><b>Repeat Password</b></label>
+                  <input id="repeat1" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                  
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                  </label>
+                  
+                  <p>Already register : <a href="#" onclick="signin()" id="loginlink" style="color:dodgerblue">login</a>.</p>
+              
+                  <div class="clearfix">
+                    <button type="button" onclick="goBack()" class="btn">Cancel</button>
+                    <button id="signupbtn" type="submit"  class="btn">Sign Up</button>
+                  </div>
+                </div>
+              </form>
+    </div>
+
+    </main>
+    <script src="https://kit.fontawesome.com/c0740dd36b.js" crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
+</body>
+</html>
